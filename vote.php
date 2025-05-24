@@ -1,3 +1,0 @@
-<?php
-// Handle voting
-?>
