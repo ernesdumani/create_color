@@ -1,0 +1,3 @@
+<?php
+// Weather API logic
+?>
