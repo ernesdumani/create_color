@@ -1,1 +1,49 @@
-<!-- Main HTML file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Color Palette Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎨 Color Palette Finder</h1>
+    <p>Smart palettes based on your time, weather, and vibe</p>
+  </header>
+
+  <section id="controls">
+    <select id="aesthetic">
+      <option value="">Choose an Aesthetic</option>
+      <option value="minimal">Minimal</option>
+      <option value="vintage">Vintage</option>
+      <option value="boho">Boho</option>
+      <option value="tech">Tech</option>
+    </select>
+
+    <select id="occasion">
+      <option value="">Choose an Occasion</option>
+      <option value="casual">Casual</option>
+      <option value="formal">Formal</option>
+      <option value="party">Party</option>
+      <option value="cozy">Cozy</option>
+    </select>
+
+    <button id="getPalette">Get Palette</button>
+  </section>
+
+  <section id="paletteDisplay">
+    <!-- Color blocks will be injected here -->
+  </section>
+
+  <section id="paletteStory">
+    <!-- Narrative about palette will go here -->
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by You</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
